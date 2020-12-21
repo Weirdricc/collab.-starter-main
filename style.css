@@ -3,3 +3,94 @@
   font: inherit;
   color: inherit;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+p {
+  max-width: 600px;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+.container {
+  border: 3px solid red;
+
+  padding: 36px;
+  max-width: 1200px;
+  /* height: 100vh; */
+  margin: 0 auto;
+  /* display: grid;
+  grid-template-rows: auto 1fr auto; */
+}
+.navigation {
+  flex-grow: 1;
+  margin-left: 80px;
+}
+.navigation--items {
+  margin-left: 42px;
+  text-decoration: none;
+  color: #bdbdbd;
+  font-weight: 500;
+}
+.navigation--items:first-child {
+  margin-left: 0;
+}
+.navigation--items__active {
+  color: #333;
+}
+.navigation--button {
+  background: linear-gradient(270deg, #faa245 0%, #d8328a 37.25%, #753872 100%);
+  height: 52px;
+  width: 164px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+main {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.heading {
+  font-size: 52px;
+  font-weight: 600;
+}
+.description {
+  font-weight: 400;
+  color: #828282;
+}
+.play--button {
+  height: 52px;
+  width: 226px;
+  border-radius: 40px;
+  border: 1px solid #e0e0e0;
+
+  background: transparent;
+  background: -webkit-linear-gradient(
+    180deg,
+    #faa245 0%,
+    #d8328a 37.25%,
+    #753872 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play--button .fa {
+  background: inherit;
+  font-size: 1.25rem;
+  margin-right: 12px;
+}
+footer {
+  color: #bdbdbd;
+}
+.socials {
+  display: inline-block;
+  margin-right: 80px;
+}
+.social--items {
+  margin-right: 36px;
+}
